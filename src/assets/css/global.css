@@ -1,0 +1,45 @@
+html {
+	overflow-y: auto;
+}
+
+.theme--dark.v-tabs-items {
+	background: transparent;
+}
+
+.scroller {
+	height: calc(100vh - 98px);
+	overflow-y: auto;
+}
+
+.scroller::-webkit-scrollbar {
+	width: 10px;
+	height: 10px;
+}
+
+.scroller::-webkit-scrollbar-track {
+	background: #4d4d4d;
+}
+
+.scroller::-webkit-scrollbar-thumb {
+	background: #3e3e3e;
+}
+
+.scroller::-webkit-scrollbar-thumb:hover {
+	background: grey;
+}
+.v-menu__content.theme--dark::-webkit-scrollbar {
+	width: 10px;
+	height: 10px;
+}
+
+.v-menu__content.theme--dark::-webkit-scrollbar-track {
+	background: #4d4d4d;
+}
+
+.v-menu__content.theme--dark::-webkit-scrollbar-thumb {
+	background: #3e3e3e;
+}
+
+.v-menu__content.theme--dark::-webkit-scrollbar-thumb:hover {
+	background: grey;
+}
